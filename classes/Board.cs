@@ -104,6 +104,7 @@ private static Square [,] board = new Square[8, 8];
 	}
 	public static bool isCheck(int i, int j, PieceColour p){
 		//get king position
+
         //loop through all opp pieces and check if they have legit move to that king coordinate
         //if they can, then check is true
 
@@ -111,6 +112,5 @@ private static Square [,] board = new Square[8, 8];
         //also can be used to notify opp that their king is in check after your move
         return false;
 	}
-
 
 }

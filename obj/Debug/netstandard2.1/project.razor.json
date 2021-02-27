@@ -190,72 +190,6 @@
         }
       },
       {
-        "HashCode": 1994732791,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Homepage",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Homepage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Homepage"
-        }
-      },
-      {
-        "HashCode": -1350108627,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Homepage",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Projects.Pages.Homepage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Homepage",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 741243892,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Index",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 835332340,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Index",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Projects.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 116035273,
         "Kind": "Components.Component",
         "Name": "Projects.Pages.FetchData",
@@ -318,6 +252,72 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Projects.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 741243892,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Index",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 835332340,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Index",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Projects.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1994732791,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Homepage",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Homepage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Homepage"
+        }
+      },
+      {
+        "HashCode": -1350108627,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Homepage",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Projects.Pages.Homepage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Homepage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

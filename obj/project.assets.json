@@ -392,6 +392,15 @@
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
+      "System.Speech/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Speech.dll": {}
+        }
+      },
       "System.Text.Encodings.Web/4.7.1": {
         "type": "package",
         "compile": {
@@ -1544,6 +1553,30 @@
         "version.txt"
       ]
     },
+    "System.Speech/5.0.0": {
+      "sha512": "URJOtiuS47+aK4u8uBGgky4XuiUzoiTFB7VGyaayD4iQDC/mE0aoPIB0m73lGzt0xYc/ZnMC6ltGb49t76wXJA==",
+      "type": "package",
+      "path": "system.speech/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netcoreapp2.0/System.Speech.targets",
+        "lib/net45/_._",
+        "lib/netstandard2.0/System.Speech.dll",
+        "lib/netstandard2.0/System.Speech.xml",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.Speech.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Speech.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Speech.xml",
+        "system.speech.5.0.0.nupkg.sha512",
+        "system.speech.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.Encodings.Web/4.7.1": {
       "sha512": "3qreYFQcLnyFk1LuaNWyyWE+sfkfe5eSTaIIssYrLNUIDbgyZNQBYQSzSDo4AprpjVeVX2T4KHKii9fiSZVUow==",
       "type": "package",
@@ -1633,7 +1666,8 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
-      "System.Net.Http.Json >= 3.2.0"
+      "System.Net.Http.Json >= 3.2.0",
+      "System.Speech >= *"
     ]
   },
   "packageFolders": {
@@ -1690,6 +1724,10 @@
           "System.Net.Http.Json": {
             "target": "Package",
             "version": "[3.2.0, )"
+          },
+          "System.Speech": {
+            "target": "Package",
+            "version": "[*, )"
           }
         },
         "imports": [
