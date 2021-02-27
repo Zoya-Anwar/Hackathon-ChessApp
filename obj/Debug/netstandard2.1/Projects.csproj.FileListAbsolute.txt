@@ -354,6 +354,10 @@ C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\staticwebas
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\staticwebassets\Projects.StaticWebAssets.xml
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Projects.dll
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Projects.pdb
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\e383Q2U3OopMCJNB3rKLAPpFs5_E3Zqsij9EropjmZE=.hash
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\Wk6j8NvX0hecCiKfNsiVPDq603azRg4ceWmf1HFXVq0=.hash
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\JMfmaNFtyGHzA52Lo0wK5rzoZ8Le_zohL5PvYPIpu4w=.hash
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Game.razor.g.cs
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Homepage.razor.g.cs
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Pages\Game.razor.g.cs
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Pages\Homepage.razor.g.cs
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\ZYN_tZCBQy82u3F2XkR-zzR2DhDUwU-EvTiiFhrR2Xg=.hash
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\Wa8ZZTaJU_plqp2mvtk8RoDn5phZMA360clXIgpqKfE=.hash
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\rNvt8tWpW9UuMnpZNHB3c1FPRUNOt_AuobEK_rM6HFw=.hash

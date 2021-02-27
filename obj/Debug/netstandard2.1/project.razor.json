@@ -190,35 +190,35 @@
         }
       },
       {
-        "HashCode": 741243892,
+        "HashCode": -2029225481,
         "Kind": "Components.Component",
-        "Name": "Projects.Pages.Index",
+        "Name": "Projects.App",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Index"
+          "Common.TypeName": "Projects.App"
         }
       },
       {
-        "HashCode": 835332340,
+        "HashCode": 2033591291,
         "Kind": "Components.Component",
-        "Name": "Projects.Pages.Index",
+        "Name": "Projects.App",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Projects.Pages.Index"
+            "TagName": "Projects.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Index",
+          "Common.TypeName": "Projects.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -289,35 +289,101 @@
         }
       },
       {
-        "HashCode": -2029225481,
+        "HashCode": 741243892,
         "Kind": "Components.Component",
-        "Name": "Projects.App",
+        "Name": "Projects.Pages.Index",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.App"
+          "Common.TypeName": "Projects.Pages.Index"
         }
       },
       {
-        "HashCode": 2033591291,
+        "HashCode": 835332340,
         "Kind": "Components.Component",
-        "Name": "Projects.App",
+        "Name": "Projects.Pages.Index",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Projects.App"
+            "TagName": "Projects.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.App",
+          "Common.TypeName": "Projects.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1994732791,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Homepage",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Homepage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Homepage"
+        }
+      },
+      {
+        "HashCode": -1350108627,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Homepage",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Projects.Pages.Homepage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Homepage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1296222821,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Game",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Game"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Game"
+        }
+      },
+      {
+        "HashCode": -832264551,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Game",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Projects.Pages.Game"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Game",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -11787,6 +11853,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\Pages\\Game.razor",
+      "TargetPath": "Pages\\Game.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
@@ -11809,6 +11880,11 @@
     {
       "FilePath": "c:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\Pages\\Homepage.razor",
+      "TargetPath": "Pages\\Homepage.razor",
       "FileKind": "component"
     },
     {
