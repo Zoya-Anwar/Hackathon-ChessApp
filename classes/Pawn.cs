@@ -19,7 +19,11 @@ public class Pawn : Piece{
 					{ 
 						return true; 
 					}
-					else if (abs_vertical == 2 && Board.hasPiece(i0 + vertical / 2, j0))
+					else if (vertical == 2 && Board.hasPiece(i0 + 1, j0))
+                    {
+						return true;
+					}
+					else if (vertical == 2 && Board.hasPiece(i0 - 1, j0))
                     {
 						return true;
 					}

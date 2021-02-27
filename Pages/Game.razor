@@ -1,7 +1,11 @@
 @page "/Game"
 
-
+<button @onclick="play"></button>
 
 @code {
-    //do chess
+    Chess game = new Chess();
+    public void play()
+    {
+        game.main();
+    }
 }

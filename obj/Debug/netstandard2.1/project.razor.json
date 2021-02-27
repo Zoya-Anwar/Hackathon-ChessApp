@@ -8,6 +8,59 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1253001677,
+        "Kind": "Components.Component",
+        "Name": "Projects.Shared.SurveyPrompt",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1891871641,
+        "Kind": "Components.Component",
+        "Name": "Projects.Shared.SurveyPrompt",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Projects.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 168234231,
         "Kind": "Components.Component",
         "Name": "Projects.Shared.MainLayout",
@@ -137,88 +190,68 @@
         }
       },
       {
-        "HashCode": 1253001677,
+        "HashCode": 1994732791,
         "Kind": "Components.Component",
-        "Name": "Projects.Shared.SurveyPrompt",
+        "Name": "Projects.Pages.Homepage",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "Homepage"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Shared.SurveyPrompt"
+          "Common.TypeName": "Projects.Pages.Homepage"
         }
       },
       {
-        "HashCode": 1891871641,
+        "HashCode": -1350108627,
         "Kind": "Components.Component",
-        "Name": "Projects.Shared.SurveyPrompt",
+        "Name": "Projects.Pages.Homepage",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Projects.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "Projects.Pages.Homepage"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Shared.SurveyPrompt",
+          "Common.TypeName": "Projects.Pages.Homepage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -2029225481,
+        "HashCode": 741243892,
         "Kind": "Components.Component",
-        "Name": "Projects.App",
+        "Name": "Projects.Pages.Index",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.App"
+          "Common.TypeName": "Projects.Pages.Index"
         }
       },
       {
-        "HashCode": 2033591291,
+        "HashCode": 835332340,
         "Kind": "Components.Component",
-        "Name": "Projects.App",
+        "Name": "Projects.Pages.Index",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Projects.App"
+            "TagName": "Projects.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.App",
+          "Common.TypeName": "Projects.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -289,72 +322,6 @@
         }
       },
       {
-        "HashCode": 741243892,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Index",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 835332340,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Index",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Projects.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1994732791,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Homepage",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Homepage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Homepage"
-        }
-      },
-      {
-        "HashCode": -1350108627,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Homepage",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Projects.Pages.Homepage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Homepage",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1296222821,
         "Kind": "Components.Component",
         "Name": "Projects.Pages.Game",
@@ -384,6 +351,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Projects.Pages.Game",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2029225481,
+        "Kind": "Components.Component",
+        "Name": "Projects.App",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.App"
+        }
+      },
+      {
+        "HashCode": 2033591291,
+        "Kind": "Components.Component",
+        "Name": "Projects.App",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Projects.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

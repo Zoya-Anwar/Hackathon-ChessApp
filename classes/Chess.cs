@@ -1,13 +1,22 @@
 using System;
-public class Game {
+
+namespace Projects.Shared
+{
+public class Chess {
 	private static bool gameEnd = false;
 
-	public static void play(){
+	public Chess()
+	{
+
+	}
+
+	public void play(){
 		while (!gameEnd){
 		string origin, destination;
 		Piece piece;
         Console.WriteLine("Enter origin:");
 		origin = Console.ReadLine();
+		Console.WriteLine("Enter destination:");
 		destination = Console.ReadLine();
 		if ((CheckInput.checkCoordinateValidity(origin) == true) && (CheckInput.checkCoordinateValidity(destination) == true))
 		{
@@ -21,16 +30,20 @@ public class Game {
 					Board.printBoard();
 				}
 		}
-		else { Console.WriteLine("\nTry again!\n"); }
-		    }      
-    }
+		else 
+		{ 
+			Console.WriteLine("\nTry again!\n");
+		}      
+      }
+	}
 
 
-	public void main ()
+	public void main()
     {
 		Board.initialiseBoard();
 		Board.initialisePieces();
 		Board.printBoard();
-		Game.play();	
+		this.play();	
     }
+}
 }
