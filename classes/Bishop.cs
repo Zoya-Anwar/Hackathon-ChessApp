@@ -26,7 +26,7 @@ public class Bishop : Piece{
                 }
             }
         }
-        else if ((horizontal == -vertical)&& vertical<0){ //check diaganol 3
+        else if ((horizontal == -vertical) && vertical<0){ //check diaganol 3
             for (int x=0; x < horizontal; x++){
                 if (Board.hasPiece(i0-x,j0+x)){
                     return false;

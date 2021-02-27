@@ -11,28 +11,28 @@ public class Rook : Piece{
   		base.isLegitMove(i0, j0, i1, j1);
 
         if (horizontal > 0 && vertical==0){ //check horizontal movement positive
-            for (int x=0; x< horizontal; x++){
+            for (int x=1; x <= horizontal; x++){
                 if (Board.hasPiece(i0,j0+x)){
                     return false;
                 }
             }
         }
         else if (horizontal < 0 && vertical==0){ //check horizontal movement negative
-            for (int x=0; x < abs_horizontal; x++){
+            for (int x=1; x <= abs_horizontal; x++){
                 if (Board.hasPiece(i0,j0-x)){
                     return false;
                 }
             }
         }
         else if (horizontal==0 && vertical>0){ //check vertical movement positive
-            for (int x=0; x < abs_vertical; x++){
+            for (int x=1; x <= abs_vertical; x++){
                 if (Board.hasPiece(i0+x,j0)){
                     return false;
                 }
             }
         }
          else if (horizontal==0 && vertical<0){ //check vertical movement negative
-            for (int x=0; x < abs_vertical; x++){
+            for (int x=1; x <= abs_vertical; x++){
                 if (Board.hasPiece(i0-x,j0)){
                     return false;
                 }

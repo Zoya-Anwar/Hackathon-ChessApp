@@ -12,7 +12,7 @@ public class Pawn : Piece{
 		base.isLegitMove(i0, j0, i1, j1);
 
 	//check pawn not moving in wrong direction 
-        if ((((int)this.getColour() == 0) && vertical >= 0) || ((int)this.getColour() == 1 && vertical <= 0)) {
+        if ((((int)this.getColour() == 1) && vertical >= 0) || ((int)this.getColour() == 0 && vertical <= 0)) {
 			if (abs_horizontal == 0 && Board.hasPiece(i1, j1) == false){ //check not moving horizontally and piece isn't in way
 				if (i0 == 6 || i0 == 1){ //if in starting position, can move up to 2 squares
 					if (abs_vertical == 1) 
