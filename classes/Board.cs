@@ -2,6 +2,8 @@ using System;
 public class Board
 {
 private static Square [,] board = new Square[8, 8];
+private static Player player1 = new Player(PieceColour.BLACK);
+private static Player player2 = new Player(PieceColour.WHITE);
 
 	//This method should not be edited
 	public static void initialiseBoard(){
@@ -11,9 +13,15 @@ private static Square [,] board = new Square[8, 8];
 		}		
 	}
     
+	public static void initialisePlayers()
+	{
+
+	}
+
 	//This method requires your input	
 	public static void initialisePieces(){
 		//Black pieces
+
 		Board.setPiece(0,0,new Rook(PieceColour.BLACK));
 		Board.setPiece(0,1,new Knight(PieceColour.BLACK));
 		Board.setPiece(0,2,new Bishop(PieceColour.BLACK));
@@ -30,6 +38,23 @@ private static Square [,] board = new Square[8, 8];
 		Board.setPiece(1,5,new Pawn(PieceColour.BLACK));
 		Board.setPiece(1,6,new Pawn(PieceColour.BLACK));
 		Board.setPiece(1,7,new Pawn(PieceColour.BLACK));
+
+		player1.addPiece(0,0,new Rook(PieceColour.BLACK));
+		player1.addPiece(0,1,new Knight(PieceColour.BLACK));
+		player1.addPiece(0,2,new Bishop(PieceColour.BLACK));
+		player1.addPiece(0,3,new Queen(PieceColour.BLACK));
+		player1.addPiece(0,4,new King(PieceColour.BLACK));
+		player1.addPiece(0,5,new Bishop(PieceColour.BLACK));
+		player1.addPiece(0,6,new Knight(PieceColour.BLACK));
+		player1.addPiece(0,7,new Rook(PieceColour.BLACK));
+		player1.addPiece(1,0,new Pawn(PieceColour.BLACK));
+		player1.addPiece(1,1,new Pawn(PieceColour.BLACK));
+		player1.addPiece(1,2,new Pawn(PieceColour.BLACK));
+		player1.addPiece(1,3,new Pawn(PieceColour.BLACK));
+		player1.addPiece(1,4,new Pawn(PieceColour.BLACK));
+		player1.addPiece(1,5,new Pawn(PieceColour.BLACK));
+		player1.addPiece(1,6,new Pawn(PieceColour.BLACK));
+		player1.addPiece(1,7,new Pawn(PieceColour.BLACK));
 
 		//White pieces
 		Board.setPiece(6,0,new Pawn(PieceColour.WHITE));
@@ -48,6 +73,23 @@ private static Square [,] board = new Square[8, 8];
 		Board.setPiece(7,5,new Bishop(PieceColour.WHITE));
 		Board.setPiece(7,6,new Knight(PieceColour.WHITE));
 		Board.setPiece(7,7,new Rook(PieceColour.WHITE));
+
+		player2.addPiece(6,0,new Pawn(PieceColour.WHITE));
+		player2.addPiece(6,1,new Pawn(PieceColour.WHITE));
+		player2.addPiece(6,2,new Pawn(PieceColour.WHITE));
+		player2.addPiece(6,3,new Pawn(PieceColour.WHITE));
+		player2.addPiece(6,4,new Pawn(PieceColour.WHITE));
+		player2.addPiece(6,5,new Pawn(PieceColour.WHITE));
+		player2.addPiece(6,6,new Pawn(PieceColour.WHITE));
+		player2.addPiece(6,7,new Pawn(PieceColour.WHITE));
+		player2.addPiece(7,0,new Rook(PieceColour.WHITE));
+		player2.addPiece(7,1,new Knight(PieceColour.WHITE));
+		player2.addPiece(7,2,new Bishop(PieceColour.WHITE));
+		player2.addPiece(7,3,new Queen(PieceColour.WHITE));
+		player2.addPiece(7,4,new King(PieceColour.WHITE));
+		player2.addPiece(7,5,new Bishop(PieceColour.WHITE));
+		player2.addPiece(7,6,new Knight(PieceColour.WHITE));
+		player2.addPiece(7,7,new Rook(PieceColour.WHITE));
 	}
 	
 	//This method requires your input	
@@ -83,7 +125,18 @@ private static Square [,] board = new Square[8, 8];
 	
 	//This method requires your input	
 	public static bool movePiece(int i0, int j0, int i1, int j1, Piece p){
+		Piece tempKing;
         board[i1, j1].setPiece(p);
+		if(getPiece(i1, j1).getColour() == 0)
+		{
+			tempKing = player2.getKing();
+		}
+		else
+		{
+			tempKing = player1.getKing();
+		}
+
+		
 		board[i0, j0].removePiece();
 		return false;
 	}
