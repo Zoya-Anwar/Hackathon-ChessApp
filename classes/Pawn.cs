@@ -1,7 +1,8 @@
 using System;
 public class Pawn : Piece{
-	public Pawn(PieceColour p) : base(p)
+	public Pawn(PieceColour p, int id) : base(p)
 	{
+		this.id = id;
 	if (p == PieceColour.BLACK)
 		this.setSymbol("♟︎");
 	else
@@ -9,7 +10,6 @@ public class Pawn : Piece{
 	}
 	public override bool isLegitMove(int i0, int j0, int i1, int j1, Board board)
 	{
-		Console.WriteLine("In here");
 		base.isLegitMove(i0, j0, i1, j1, board);
 
 	//check pawn not moving in wrong direction 

@@ -8,6 +8,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -158185814,
+        "Kind": "Components.Component",
+        "Name": "Projects.Shared.Index",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Shared.Index"
+        }
+      },
+      {
+        "HashCode": -1483706666,
+        "Kind": "Components.Component",
+        "Name": "Projects.Shared.Index",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Projects.Shared.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Shared.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 168234231,
         "Kind": "Components.Component",
         "Name": "Projects.Shared.MainLayout",
@@ -223,6 +256,39 @@
         }
       },
       {
+        "HashCode": 96844082,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Counter",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 647056727,
+        "Kind": "Components.Component",
+        "Name": "Projects.Pages.Counter",
+        "AssemblyName": "Projects",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Projects.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Projects.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 116035273,
         "Kind": "Components.Component",
         "Name": "Projects.Pages.FetchData",
@@ -285,72 +351,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Projects.Pages.Homepage",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 741243892,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Index",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 835332340,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Index",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Projects.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 96844082,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Counter",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 647056727,
-        "Kind": "Components.Component",
-        "Name": "Projects.Pages.Counter",
-        "AssemblyName": "Projects",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Projects.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -11863,8 +11863,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "c:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\Shared\\Index.razor",
+      "TargetPath": "Shared\\Index.razor",
       "FileKind": "component"
     },
     {

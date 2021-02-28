@@ -1,7 +1,8 @@
 using System;
 public class Bishop : Piece{
-  public Bishop(PieceColour p) : base(p)
+  public Bishop(PieceColour p, int id) : base(p)
   {
+    this.id = id;
     if (p == PieceColour.BLACK) {
         this.setSymbol("♝");
     }

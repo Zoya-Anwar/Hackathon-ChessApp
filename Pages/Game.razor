@@ -132,7 +132,7 @@
         }
         else
         {
-            <i style="font-size:20px;border-width:10px;border-style:solid;border-color:#ddd;text-align: center;">@(result.Items[0].Transcript)</i>
+            <i style="font-size:20px;border-width:10px;border-style:solid;border-color:grey;text-align: center;">@(result.Items[0].Transcript)</i>
         }
     }
 </div>
@@ -206,7 +206,6 @@
                 else {
                   destination = result.Items[0].Transcript;
                   speech_synthesis.Speak("Would you like to play " + origin + " to " + destination);
-            
                 }
               }
               else if ((result.Items[0].Transcript.Trim(' ') == "yes" || result.Items[0].Transcript.Trim(' ') == "yeah"))

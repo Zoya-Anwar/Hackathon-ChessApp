@@ -1,6 +1,7 @@
 public class Knight : Piece{
-  public Knight(PieceColour p) : base(p)
+  public Knight(PieceColour p, int id) : base(p)
   {
+    this.id = id;
     if (p == PieceColour.BLACK)
         this.setSymbol("♞");
     else

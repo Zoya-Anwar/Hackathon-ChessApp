@@ -17,12 +17,11 @@ public class Chess {
 		Piece piece;
 		origin = origin.Trim(' ').ToLower();
 		destination = destination.Trim(' ').ToLower();
-				int i0 = origin[0] - 97;
-				int j0 = origin[1] - 49;
-				int i1 = destination[0] - 97;
-				int j1 = destination[1] - 49;
+				int j0 = origin[0] - 97;
+				int i0 = origin[1] - 49;
+				int j1 = destination[0] - 97;
+				int i1 = destination[1] - 49;
 				piece = board.getPiece(i0, j0);
-				Console.WriteLine(piece.GetType().ToString());
 				switch (piece.GetType().ToString())
 				{
 					case "King":
@@ -44,23 +43,31 @@ public class Chess {
 						piece = (Rook)piece;
 						break;
 				}
-				Console.WriteLine(piece.isLegitMove(i0, j0, i1, j1, board));
-				if (piece.isLegitMove(i0,j0,i1,j1, board) && board.isCheck(i1, j1, piece, (PieceColour)Convert.ToInt32(turn)) == 0) {
-					board.movePiece(i0, j0, i1, j1, board.getPiece(i0, j0));
-					board.printBoard();
-					return 0;
-				}
-				else if(piece.isLegitMove(i0,j0,i1,j1, board) && board.isCheck(i1, j1, piece, (PieceColour)Convert.ToInt32(turn)) == 1)
+				if(!CheckInput.checkCoordinateValidity(origin) || !CheckInput.checkCoordinateValidity(destination))
 				{
-					//moving piece will check own king, or will not stop a current check
-					return 2;
+					return 1;
 				}
-				else if(piece.isLegitMove(i0,j0,i1,j1, board) && board.isCheck(i1, j1, piece, (PieceColour)Convert.ToInt32(turn)) == 2)
-				{
-					//moving piece will check other king
-					board.movePiece(i0, j0, i1, j1, board.getPiece(i0, j0));
-					board.printBoard();
-					return 3;
+				if (piece.isLegitMove(i0,j0,i1,j1, board)) {
+					if(board.isCheck(i1, j1, piece, (PieceColour)Convert.ToInt32(turn)))
+					{
+						//moving piece will check own king, or will not stop a current check
+						return 2;
+					}
+					else if(board.isCheck(i1, j1, piece, (PieceColour)Convert.ToInt32(!turn)))
+					{
+						//moving piece will check other king
+						board.movePiece(i0, j0, i1, j1, board.getPiece(i0, j0));
+						turn = !turn;
+						board.printBoard();
+						return 3;
+					}
+					else
+					{
+						board.movePiece(i0, j0, i1, j1, board.getPiece(i0, j0));
+						turn = !turn;
+						board.printBoard();
+						return 0;
+					}
 				}
         board.printBoard();
 		return 1;    

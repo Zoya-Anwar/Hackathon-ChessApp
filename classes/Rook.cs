@@ -1,7 +1,8 @@
 using System;
 public class Rook : Piece{
-    public Rook(PieceColour p) : base(p)
+    public Rook(PieceColour p, int id) : base(p)
     {
+        this.id = id;
     if (p == PieceColour.BLACK)
       this.setSymbol("♜");
     else

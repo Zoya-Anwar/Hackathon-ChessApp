@@ -1,9 +1,9 @@
 using System;
 
 public class King : Piece{
-	public King(PieceColour p) : base(p)
+	public King(PieceColour p, int id) : base(p)
     {
-    
+    this.id = id;
 	if (p == PieceColour.BLACK)
 		this.setSymbol("♚");
 	else

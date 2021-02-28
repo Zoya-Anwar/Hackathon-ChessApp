@@ -17,8 +17,14 @@ using System.Collections.Generic;
         }
 
         public void movePiece(Piece piece, int newx, int newy)
-        {
-            pieces[pieces.IndexOf(piece)].move(newx, newy);
+        {  
+            foreach(Piece p in pieces)
+            {
+                if(p.getId() == piece.getId())
+                {
+                    p.move(newx, newy);
+                }
+            }
         }
 
         public void addPiece(int starty, int startx, Piece piece)

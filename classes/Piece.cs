@@ -9,6 +9,7 @@ public class Piece {
     protected int horizontal;
     protected int xcoord;
     protected int ycoord;
+    protected int id = 0;
 
     public Piece(PieceColour p)
     {
@@ -37,5 +38,19 @@ public class Piece {
         vertical = i1 - i0; //get vert spaces and direction moving
         horizontal = j1 - j0; //get horiz spaces and direction moving
         return false;
+    }
+
+    public int getx()
+    {
+        return xcoord;
+    }
+    public int gety()
+    {
+        return ycoord;
+    }
+
+    public int getId()
+    {
+        return id;
     }
 }

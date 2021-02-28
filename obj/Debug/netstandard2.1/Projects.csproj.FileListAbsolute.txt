@@ -160,7 +160,6 @@ C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclar
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Game.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Homepage.razor.g.cs
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
@@ -174,7 +173,6 @@ C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Pages
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Pages\Game.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Pages\Homepage.razor.g.cs
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Shared\SurveyPrompt.razor.g.cs
@@ -371,6 +369,8 @@ C:\Users\gwyd0\OneDrive\Documents\Hackathon\bin\Debug\netstandard2.1\Toolbelt.Bl
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\o1MnNOggIAp3Ydun5WTwAj6N7d0DiyubC_335tB-cek=.hash
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\compressed\_framework\_bin\Toolbelt.Blazor.SpeechSynthesis.dll.gz
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\compressed\_framework\_bin\Toolbelt.Blazor.SpeechSynthesis.dll.br
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\3QtITjFzBfWdR6qUuhK726C5V8qJtJG_Zr6eofSETt4=.hash
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\PXd3Lsh3kgjhUZBW1bfyxFNUmO_HBE73ylTKw6uL0-I=.hash
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\Gpjnd7UPrO8MFOJeyIQyG1Nn4GzKPGROTX78HWEXyTg=.hash
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Shared\Index.razor.g.cs
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Shared\Index.razor.g.cs
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\H2aOZAINkz9oam1YG0VmBRfx249BD7SBIGFQms_3LM0=.hash
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\bckDMSlL_TpRBtUpXLsLGIHUe3IaubBa-_gQB5CvcW8=.hash
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\gw8Nar-HLKtahev6qfSPQ3Ge7SksZXV5c5K3mGUL7Eg=.hash
