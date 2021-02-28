@@ -1,49 +1,82 @@
 using System;
+using System.Runtime;
 
 namespace Projects.Shared
 {
 public class Chess {
 	private static bool gameEnd = false;
+	private bool turn = false;
+	private Board board = new Board();
 
 	public Chess()
 	{
 
 	}
 
-	public void play(){
-		while (!gameEnd){
-		string origin, destination;
+	public int play(string origin, string destination){
 		Piece piece;
-        Console.WriteLine("Enter origin:");
-		origin = Console.ReadLine();
-		Console.WriteLine("Enter destination:");
-		destination = Console.ReadLine();
-		if ((CheckInput.checkCoordinateValidity(origin) == true) && (CheckInput.checkCoordinateValidity(destination) == true))
-		{
-				int i0 = origin[0] - 49;
-				int j0 = origin[1] - 97;
-				int i1 = destination[0] - 49;
-				int j1 = destination[1] - 97;
-				piece = Board.getPiece(i0, j0);
-				if (piece.isLegitMove(i0,j0,i1,j1) && !Board.isCheck(1, 1, PieceColour.BLACK)) {
-					Board.movePiece(i0, j0, i1, j1, Board.getPiece(i0, j0));
-					Board.printBoard();
+		origin = origin.Trim(' ').ToLower();
+		destination = destination.Trim(' ').ToLower();
+				int i0 = origin[0] - 97;
+				int j0 = origin[1] - 49;
+				int i1 = destination[0] - 97;
+				int j1 = destination[1] - 49;
+				piece = board.getPiece(i0, j0);
+				Console.WriteLine(piece.GetType().ToString());
+				switch (piece.GetType().ToString())
+				{
+					case "King":
+						piece = (King)piece;
+						break;
+					case "Pawn":
+						piece = (Pawn)piece;
+						break;
+					case "Bishop":
+						piece = (Bishop)piece;
+						break;
+					case "Knight":
+						piece = (Knight)piece;
+						break;
+					case "Queen":
+						piece = (Queen)piece;
+						break;
+					case "Rook":
+						piece = (Rook)piece;
+						break;
 				}
-		}
-		else 
-		{ 
-			Console.WriteLine("\nTry again!\n");
-		}      
-      }
+				Console.WriteLine(piece.isLegitMove(i0, j0, i1, j1, board));
+				if (piece.isLegitMove(i0,j0,i1,j1, board) && board.isCheck(i1, j1, piece, (PieceColour)Convert.ToInt32(turn)) == 0) {
+					board.movePiece(i0, j0, i1, j1, board.getPiece(i0, j0));
+					board.printBoard();
+					return 0;
+				}
+				else if(piece.isLegitMove(i0,j0,i1,j1, board) && board.isCheck(i1, j1, piece, (PieceColour)Convert.ToInt32(turn)) == 1)
+				{
+					//moving piece will check own king, or will not stop a current check
+					return 2;
+				}
+				else if(piece.isLegitMove(i0,j0,i1,j1, board) && board.isCheck(i1, j1, piece, (PieceColour)Convert.ToInt32(turn)) == 2)
+				{
+					//moving piece will check other king
+					board.movePiece(i0, j0, i1, j1, board.getPiece(i0, j0));
+					board.printBoard();
+					return 3;
+				}
+        board.printBoard();
+		return 1;    
 	}
 
+	public Square[,] getBoard()
+	{
+		return board.getBoard();
+	}
 
 	public void main()
     {
-		Board.initialiseBoard();
-		Board.initialisePieces();
-		Board.printBoard();
-		this.play();	
+		board.initialiseBoard();
+		board.initialisePlayers();
+		board.initialisePieces();
+		board.printBoard();
     }
 }
 }

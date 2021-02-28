@@ -439,6 +439,44 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "Toolbelt.Blazor.SpeechRecognition/0.0.4.6-alpha": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.0.0",
+          "Microsoft.AspNetCore.Components.Web": "3.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Toolbelt.Blazor.SpeechRecognition.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Toolbelt.Blazor.SpeechRecognition.dll": {}
+        },
+        "build": {
+          "buildTransitive/Toolbelt.Blazor.SpeechRecognition.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Toolbelt.Blazor.SpeechRecognition.props": {}
+        }
+      },
+      "Toolbelt.Blazor.SpeechSynthesis/8.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.0",
+          "Microsoft.AspNetCore.Components.Web": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Toolbelt.Blazor.SpeechSynthesis.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Toolbelt.Blazor.SpeechSynthesis.dll": {}
+        },
+        "build": {
+          "buildTransitive/Toolbelt.Blazor.SpeechSynthesis.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Toolbelt.Blazor.SpeechSynthesis.props": {}
+        }
       }
     }
   },
@@ -1659,6 +1697,43 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Toolbelt.Blazor.SpeechRecognition/0.0.4.6-alpha": {
+      "sha512": "yIDbTGknhj7zjfEUoSnijmXd78tfqShDbTEnqxTEgPpuSq5M5JIlm3voWVacOLS00lfvPPB7SA60CqG30IlNxg==",
+      "type": "package",
+      "path": "toolbelt.blazor.speechrecognition/0.0.4.6-alpha",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Toolbelt.Blazor.SpeechRecognition.props",
+        "buildMultiTargeting/Toolbelt.Blazor.SpeechRecognition.props",
+        "buildTransitive/Toolbelt.Blazor.SpeechRecognition.props",
+        "lib/netstandard2.0/Toolbelt.Blazor.SpeechRecognition.dll",
+        "lib/netstandard2.0/Toolbelt.Blazor.SpeechRecognition.xml",
+        "staticwebassets/script.min.js",
+        "toolbelt.blazor.speechrecognition.0.0.4.6-alpha.nupkg.sha512",
+        "toolbelt.blazor.speechrecognition.nuspec"
+      ]
+    },
+    "Toolbelt.Blazor.SpeechSynthesis/8.1.0": {
+      "sha512": "EVvWBNRyWiA7Utk2mtYNTMyaZj+IM+x7btyvYt4aol7xtMCoAZMS/sqN4JBW7z7SyQsSptpqwpKJ5IT9dKv6AQ==",
+      "type": "package",
+      "path": "toolbelt.blazor.speechsynthesis/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Toolbelt.Blazor.SpeechSynthesis.props",
+        "buildMultiTargeting/Toolbelt.Blazor.SpeechSynthesis.props",
+        "buildTransitive/Toolbelt.Blazor.SpeechSynthesis.props",
+        "lib/netstandard2.0/Toolbelt.Blazor.SpeechSynthesis.dll",
+        "lib/netstandard2.0/Toolbelt.Blazor.SpeechSynthesis.xml",
+        "nupkg-icon.png",
+        "staticwebassets/script.min.js",
+        "toolbelt.blazor.speechsynthesis.8.1.0.nupkg.sha512",
+        "toolbelt.blazor.speechsynthesis.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1667,7 +1742,9 @@
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
       "System.Net.Http.Json >= 3.2.0",
-      "System.Speech >= *"
+      "System.Speech >= 5.0.0",
+      "Toolbelt.Blazor.SpeechRecognition >= 0.0.4.6-alpha",
+      "Toolbelt.Blazor.SpeechSynthesis >= 8.1.0"
     ]
   },
   "packageFolders": {
@@ -1727,7 +1804,15 @@
           },
           "System.Speech": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[5.0.0, )"
+          },
+          "Toolbelt.Blazor.SpeechRecognition": {
+            "target": "Package",
+            "version": "[0.0.4.6-alpha, )"
+          },
+          "Toolbelt.Blazor.SpeechSynthesis": {
+            "target": "Package",
+            "version": "[8.1.0, )"
           }
         },
         "imports": [

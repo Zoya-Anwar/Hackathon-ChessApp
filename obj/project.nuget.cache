@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4z2Pl0r9rfjrAbrFOCGR9wrnzwVsaoNk4ELRUQcIevzm9Rw2vlmPUbBTKX/kgzvXgQVHB3ivPCE1+k24wMm0VA==",
+  "dgSpecHash": "O2KcmczHhhCDaEwx7jv6VcZeoNNqGoGif1Trd2TxHZtySXdFzl9AJDOjO1JokvT3g2ywkonwaZoimHYGlq54YQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\Projects.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,9 @@
     "C:\\Users\\gwyd0\\.nuget\\packages\\system.speech\\5.0.0\\system.speech.5.0.0.nupkg.sha512",
     "C:\\Users\\gwyd0\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",
     "C:\\Users\\gwyd0\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\gwyd0\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\gwyd0\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\gwyd0\\.nuget\\packages\\toolbelt.blazor.speechrecognition\\0.0.4.6-alpha\\toolbelt.blazor.speechrecognition.0.0.4.6-alpha.nupkg.sha512",
+    "C:\\Users\\gwyd0\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\8.1.0\\toolbelt.blazor.speechsynthesis.8.1.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,6 +1,12 @@
 public class Square {
 	private bool piece;
 	private Piece p;
+
+	public Square()
+	{
+		piece = false;
+	}
+
 	public bool hasPiece(){
 		return piece;
 	}

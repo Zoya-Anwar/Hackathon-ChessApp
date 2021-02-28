@@ -1,3 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="/" Path="C:\Users\gwyd0\OneDrive\Documents\Hackathon\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/Toolbelt.Blazor.SpeechRecognition" Path="C:\Users\gwyd0\.nuget\packages\toolbelt.blazor.speechrecognition\0.0.4.6-alpha\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Toolbelt.Blazor.SpeechSynthesis" Path="C:\Users\gwyd0\.nuget\packages\toolbelt.blazor.speechsynthesis\8.1.0\build\..\staticwebassets\" />
 </StaticWebAssets>

@@ -58,7 +58,15 @@
             },
             "System.Speech": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[5.0.0, )"
+            },
+            "Toolbelt.Blazor.SpeechRecognition": {
+              "target": "Package",
+              "version": "[0.0.4.6-alpha, )"
+            },
+            "Toolbelt.Blazor.SpeechSynthesis": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [

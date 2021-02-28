@@ -1,7 +1,7 @@
 using System;
 
 public class Piece {
-    protected string symbol;
+    protected string symbol = "";
     protected PieceColour colour;
   	protected int abs_vertical;
   	protected int abs_horizontal;
@@ -31,7 +31,7 @@ public class Piece {
         ycoord = newy;
     }
 
-    public virtual bool isLegitMove(int i0, int j0, int i1, int j1){
+    public virtual bool isLegitMove(int i0, int j0, int i1, int j1, Board board){
         abs_vertical = Math.Abs(i1 - i0); //get vert spaces moving
         abs_horizontal = Math.Abs(j1 - j0); //get horiz spaces moving
         vertical = i1 - i0; //get vert spaces and direction moving

@@ -3,7 +3,7 @@ public class CheckInput {
 
 	//This method requires your input
 	public static bool checkCoordinateValidity(string input){
-        Regex rx = new Regex("([1-8][a-h]){1}");
+        Regex rx = new Regex("([a-h]){1}[1-8]");
         return rx.IsMatch(input);
 	}
 }

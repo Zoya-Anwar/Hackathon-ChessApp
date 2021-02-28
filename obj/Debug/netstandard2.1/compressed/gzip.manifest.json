@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\0GG8Q4PCqECL5qQNT7d-W1DlNyU2yy1UAal9P_oMa3c=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3QtITjFzBfWdR6qUuhK726C5V8qJtJG_Zr6eofSETt4=.hash",
       "Source": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Projects.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Projects.dll.gz"
     },
@@ -191,6 +191,21 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\o1MnNOggIAp3Ydun5WTwAj6N7d0DiyubC_335tB-cek=.hash",
+      "Source": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Toolbelt.Blazor.SpeechSynthesis.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Toolbelt.Blazor.SpeechSynthesis.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
+      "Source": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\SfDHE7Vg6TVy7TsWHO-DwPegLEC9xl1a0l-DnXE7dt8=.hash",
+      "Source": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Toolbelt.Blazor.SpeechRecognition.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Toolbelt.Blazor.SpeechRecognition.dll.gz"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash",
       "Source": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.gz"
@@ -251,17 +266,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
-      "Source": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.gz"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
       "Source": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\5MiLIUMLGvkTkr7-iU2p_ylO9uztE_2KSMsWKf9lmNE=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PXd3Lsh3kgjhUZBW1bfyxFNUmO_HBE73ylTKw6uL0-I=.hash",
       "Source": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Projects.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Projects.pdb.gz"
     },
@@ -286,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\a71mEt4Ysixs02YPpO2YbLKBtdEQwkbEE1VmSjkxlMU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Gpjnd7UPrO8MFOJeyIQyG1Nn4GzKPGROTX78HWEXyTg=.hash",
       "Source": "C:\\Users\\gwyd0\\OneDrive\\Documents\\Hackathon\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

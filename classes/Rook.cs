@@ -7,46 +7,46 @@ public class Rook : Piece{
     else
       this.setSymbol("♖");
     }
-    public override bool isLegitMove(int i0, int j0, int i1, int j1){
-  		base.isLegitMove(i0, j0, i1, j1);
+    public override bool isLegitMove(int i0, int j0, int i1, int j1, Board board){
+  		base.isLegitMove(i0, j0, i1, j1, board);
 
         if (horizontal > 0 && vertical==0){ //check horizontal movement positive
             for (int x=1; x < abs_horizontal; x++){
-                if (Board.hasPiece(i0,j0+x)){
+                if (board.hasPiece(i0,j0+x)){
                     return false;
                 }
             }
-            if (((Board.hasPiece(i1, j1) && (Board.getPiece(i1,j1).getColour() != this.getColour())) || Board.hasPiece(i1,j1) == false )){
+            if (((board.hasPiece(i1, j1) && (board.getPiece(i1,j1).getColour() != this.getColour())) || board.hasPiece(i1,j1) == false )){
                 return true;
             }
         }
         else if (horizontal < 0 && vertical==0){ //check horizontal movement negative
             for (int x=1; x < abs_horizontal; x++){
-                if (Board.hasPiece(i0,j0-x)){
+                if (board.hasPiece(i0,j0-x)){
                     return false;
                 }
             }
-            if (((Board.hasPiece(i1, j1) && (Board.getPiece(i1,j1).getColour() != this.getColour())) || Board.hasPiece(i1,j1) == false )){
+            if (((board.hasPiece(i1, j1) && (board.getPiece(i1,j1).getColour() != this.getColour())) || board.hasPiece(i1,j1) == false )){
                 return true;
             }
         }
         else if (horizontal==0 && vertical>0){ //check vertical movement positive
             for (int x=1; x < abs_vertical; x++){
-                if (Board.hasPiece(i0+x,j0)){
+                if (board.hasPiece(i0+x,j0)){
                     return false;
                 }
             }
-            if (((Board.hasPiece(i1, j1) && (Board.getPiece(i1,j1).getColour() != this.getColour())) || Board.hasPiece(i1,j1) == false )){
+            if (((board.hasPiece(i1, j1) && (board.getPiece(i1,j1).getColour() != this.getColour())) || board.hasPiece(i1,j1) == false )){
                 return true;
             }
         }
          else if (horizontal==0 && vertical<0){ //check vertical movement negative
             for (int x=1; x < abs_vertical; x++){
-                if (Board.hasPiece(i0-x,j0)){
+                if (board.hasPiece(i0-x,j0)){
                     return false;
                 }
             }
-            if (((Board.hasPiece(i1, j1) && (Board.getPiece(i1,j1).getColour() != this.getColour())) || Board.hasPiece(i1,j1) == false )){
+            if (((board.hasPiece(i1, j1) && (board.getPiece(i1,j1).getColour() != this.getColour())) || board.hasPiece(i1,j1) == false )){
                 return true;
             }
         }
