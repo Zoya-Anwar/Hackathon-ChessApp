@@ -105,6 +105,7 @@
     <div class='cellprefix'>F</div>
     <div class='cellprefix'>G</div>
     <div class='cellprefix'>H</div><br>
+    <div id='turn'>@PlayerTurn</div>
   </div>
   
   <!-- partial -->
@@ -126,11 +127,12 @@
     {
         @if (result.IsFinal)
         {
-            <text>@(result.Items[0].Transcript)</text>
+            <i style="font-size:20px;border-width:10;border-style:solid;text-align: center;">@(result.Items[0].Transcript)</i>
+            
         }
         else
         {
-            <i style="color:#ddd;">@(result.Items[0].Transcript)</i>
+            <i style="font-size:20px;border-width:10px;border-style:solid;border-color:#ddd;text-align: center;">@(result.Items[0].Transcript)</i>
         }
     }
 </div>
@@ -138,14 +140,16 @@
 
 
 @code {
+    
     public string[] pog = Enumerable.Repeat("", 64).ToArray(); 
     SpeechRecognitionResult[] Results = new SpeechRecognitionResult[0];
     Chess game = new Chess();
-
+    public string PlayerTurn;
+    string turn = "white";
     Regex rx = new Regex(@"^\s*[a-zA-Z]{1}\d{1}\s*$");
     Square[,] board;
     int counter = 0;
-
+    int checking = 0;
     string origin = "";
     string destination = "";
 
@@ -170,6 +174,7 @@
          counter++;
        }
       }
+      PlayerTurn = "It's " + turn + "'s turn!";
     }
 
     
@@ -206,10 +211,47 @@
               }
               else if ((result.Items[0].Transcript.Trim(' ') == "yes" || result.Items[0].Transcript.Trim(' ') == "yeah"))
               {
+                Console.WriteLine("playing");
                 speech_synthesis.Speak("Okay");
-                game.play(origin, destination);
-                doStuff();
-                //this.Dispose();
+                checking = game.play(origin, destination);
+                Console.WriteLine(checking.ToString());
+                if(checking == 0)
+                {
+                  speech_synthesis.Speak("Valid move");
+                  doStuff();
+                  if (turn == "white")
+                    turn = "black";
+                  else 
+                    turn = "white";
+                origin = "";
+                destination = "";
+                }
+                else if(checking == 1)
+                {
+                  speech_synthesis.Speak("Invalid move");
+                origin = "";
+                destination = "";
+                }
+                else if(checking == 2)
+                {
+                  speech_synthesis.Speak("Invalid, you will be in check");
+                  doStuff();
+                origin = "";
+                destination = "";
+                }
+                else if(checking == 3)
+                {
+                  speech_synthesis.Speak("Valid move, opponent is in check");
+                  doStuff();
+                  if (turn == "white")
+                    turn = "black";
+                  else 
+                    turn = "white";
+                }
+                Console.WriteLine("Printed");
+                //speech_recognition.Result -= OnSpeechRecognized;
+                origin = "";
+                destination = "";
               } 
               else if(origin != "")
               {
@@ -217,7 +259,7 @@
               }
               else if (origin == "" && destination == "")
               {
-                speech_synthesis.Speak("Tell me the origin");
+                speech_synthesis.Speak("Tell me the origin for player " + turn);
               }      
          }
          
