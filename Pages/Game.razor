@@ -114,13 +114,11 @@
 
 </body>
 
-<button @onclick="@play"></button> 
+<button @onclick="@play">Play</button> 
 
 <button @onclick="@OnClickStart">start</button>
 
 <button @onclick="@OnClickStop">stop</button>
-
-<button @onclick="@doStuff">Refresh</button>
 
 <div>
     @foreach (var result in this.Results)
@@ -182,6 +180,7 @@
     protected void play()
     {
         game.main();
+        doStuff();
     }
     protected override void OnInitialized()
     {

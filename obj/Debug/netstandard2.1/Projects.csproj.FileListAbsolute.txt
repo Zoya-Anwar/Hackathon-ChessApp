@@ -371,6 +371,6 @@ C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\compressed\
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\compressed\_framework\_bin\Toolbelt.Blazor.SpeechSynthesis.dll.br
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\RazorDeclaration\Shared\Index.razor.g.cs
 C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\Razor\Shared\Index.razor.g.cs
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\H2aOZAINkz9oam1YG0VmBRfx249BD7SBIGFQms_3LM0=.hash
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\bckDMSlL_TpRBtUpXLsLGIHUe3IaubBa-_gQB5CvcW8=.hash
-C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\gw8Nar-HLKtahev6qfSPQ3Ge7SksZXV5c5K3mGUL7Eg=.hash
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\YVAjG8h_VWuERthTMZY52mGznI0J5nDVrzDAvfzUD-w=.hash
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\ZcwwjwPkZ9jl_cKDDFPY2VbATsQf98nKeHAvwqkobfM=.hash
+C:\Users\gwyd0\OneDrive\Documents\Hackathon\obj\Debug\netstandard2.1\integrity\ok3iHMMeMig64_KxxGJmruGU1GjDrR8clOWcSRAgsmg=.hash

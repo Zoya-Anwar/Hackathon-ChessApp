@@ -223,35 +223,35 @@
         }
       },
       {
-        "HashCode": -2029225481,
+        "HashCode": 1296222821,
         "Kind": "Components.Component",
-        "Name": "Projects.App",
+        "Name": "Projects.Pages.Game",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Game"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.App"
+          "Common.TypeName": "Projects.Pages.Game"
         }
       },
       {
-        "HashCode": 2033591291,
+        "HashCode": -832264551,
         "Kind": "Components.Component",
-        "Name": "Projects.App",
+        "Name": "Projects.Pages.Game",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Projects.App"
+            "TagName": "Projects.Pages.Game"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.App",
+          "Common.TypeName": "Projects.Pages.Game",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -355,35 +355,35 @@
         }
       },
       {
-        "HashCode": 1296222821,
+        "HashCode": -2029225481,
         "Kind": "Components.Component",
-        "Name": "Projects.Pages.Game",
+        "Name": "Projects.App",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Game"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Game"
+          "Common.TypeName": "Projects.App"
         }
       },
       {
-        "HashCode": -832264551,
+        "HashCode": 2033591291,
         "Kind": "Components.Component",
-        "Name": "Projects.Pages.Game",
+        "Name": "Projects.App",
         "AssemblyName": "Projects",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Projects.Pages.Game"
+            "TagName": "Projects.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Projects.Pages.Game",
+          "Common.TypeName": "Projects.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
